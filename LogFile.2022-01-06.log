@@ -1,0 +1,356 @@
+2022-01-06 15:51:46,536 INFO  [restartedMain] PokerApplication: Starting PokerApplication using Java 18-ea on LIN800021960 with PID 19740 (C:\Users\shabhart\Desktop\Poker\poker\target\classes started by shabhart in C:\Users\shabhart\Desktop\Poker\poker)
+2022-01-06 15:51:46,544 INFO  [restartedMain] PokerApplication: No active profile set, falling back to default profiles: default
+2022-01-06 15:51:46,683 INFO  [restartedMain] DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-06 15:51:46,684 INFO  [restartedMain] DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-06 15:51:48,332 INFO  [restartedMain] RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-06 15:51:48,501 INFO  [restartedMain] RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 146 ms. Found 5 JPA repository interfaces.
+2022-01-06 15:51:50,122 INFO  [restartedMain] TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2022-01-06 15:51:50,146 INFO  [restartedMain] Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-06 15:51:50,147 INFO  [restartedMain] StandardService: Starting service [Tomcat]
+2022-01-06 15:51:50,148 INFO  [restartedMain] StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-01-06 15:51:50,372 INFO  [restartedMain] [/]: Initializing Spring embedded WebApplicationContext
+2022-01-06 15:51:50,373 INFO  [restartedMain] ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 3686 ms
+2022-01-06 15:51:50,447 INFO  [restartedMain] HikariDataSource: HikariPool-1 - Starting...
+2022-01-06 15:51:50,779 INFO  [restartedMain] HikariDataSource: HikariPool-1 - Start completed.
+2022-01-06 15:51:50,797 INFO  [restartedMain] H2ConsoleAutoConfiguration: H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-01-06 15:51:51,196 INFO  [restartedMain] LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-06 15:51:51,344 INFO  [restartedMain] Version: HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-01-06 15:51:51,842 INFO  [restartedMain] Version: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-06 15:51:52,105 INFO  [restartedMain] Dialect: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-06 15:51:53,495 INFO  [restartedMain] JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-06 15:51:53,510 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-06 15:51:54,584 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-06 15:51:55,317 INFO  [restartedMain] OptionalLiveReloadServer: LiveReload server is running on port 35729
+2022-01-06 15:51:55,341 INFO  [restartedMain] Http11NioProtocol: Starting ProtocolHandler ["http-nio-8080"]
+2022-01-06 15:51:55,452 INFO  [restartedMain] TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-06 15:51:55,477 INFO  [restartedMain] PokerApplication: Started PokerApplication in 9.766 seconds (JVM running for 11.237)
+2022-01-06 15:52:02,802 INFO  [http-nio-8080-exec-2] [/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-06 15:52:02,802 INFO  [http-nio-8080-exec-2] DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+2022-01-06 15:52:02,804 INFO  [http-nio-8080-exec-2] DispatcherServlet: Completed initialization in 1 ms
+2022-01-06 15:52:02,857 INFO  [http-nio-8080-exec-2] PlanningPokerSessionController: createPockerPlanningSession method start
+2022-01-06 15:52:02,857 INFO  [http-nio-8080-exec-2] PokerSessionServiceImpl: createPockerPlanningSession start
+2022-01-06 15:52:03,066 INFO  [http-nio-8080-exec-2] PokerSessionServiceImpl: createPockerPlanningSession end
+2022-01-06 15:52:03,067 INFO  [http-nio-8080-exec-2] PlanningPokerSessionController: createPockerPlanningSession method end
+2022-01-06 15:55:55,549 WARN  [http-nio-8080-exec-5] ExceptionHandlerExceptionResolver: Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-01-06 15:56:03,710 INFO  [http-nio-8080-exec-7] PokerSessionServiceImpl: addUpdateMemberList start
+2022-01-06 15:56:03,750 INFO  [http-nio-8080-exec-7] PokerSessionServiceImpl: addUpdateMemberList end
+2022-01-06 15:56:24,134 INFO  [http-nio-8080-exec-8] PokerSessionServiceImpl: addUpdateMemberList start
+2022-01-06 15:56:24,140 INFO  [http-nio-8080-exec-8] PokerSessionServiceImpl: addUpdateMemberList end
+2022-01-06 16:35:44,148 INFO  [Thread-6] LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-06 16:35:44,150 INFO  [Thread-6] SchemaDropperImpl$DelayedDropActionImpl: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-01-06 16:35:44,404 WARN  [Thread-6] DisposableBeanAdapter: Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-01-06 16:35:44,405 INFO  [Thread-6] HikariDataSource: HikariPool-1 - Shutdown initiated...
+2022-01-06 16:35:44,410 INFO  [Thread-6] HikariDataSource: HikariPool-1 - Shutdown completed.
+2022-01-06 16:35:44,542 INFO  [restartedMain] PokerApplication: Starting PokerApplication using Java 18-ea on LIN800021960 with PID 19740 (C:\Users\shabhart\Desktop\Poker\poker\target\classes started by shabhart in C:\Users\shabhart\Desktop\Poker\poker)
+2022-01-06 16:35:44,543 INFO  [restartedMain] PokerApplication: No active profile set, falling back to default profiles: default
+2022-01-06 16:35:44,897 INFO  [restartedMain] RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-06 16:35:44,946 INFO  [restartedMain] RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 47 ms. Found 5 JPA repository interfaces.
+2022-01-06 16:35:45,166 INFO  [restartedMain] TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2022-01-06 16:35:45,168 INFO  [restartedMain] Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-06 16:35:45,169 INFO  [restartedMain] StandardService: Starting service [Tomcat]
+2022-01-06 16:35:45,170 INFO  [restartedMain] StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-01-06 16:35:45,221 INFO  [restartedMain] [/]: Initializing Spring embedded WebApplicationContext
+2022-01-06 16:35:45,222 INFO  [restartedMain] ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 672 ms
+2022-01-06 16:35:45,244 INFO  [restartedMain] HikariDataSource: HikariPool-2 - Starting...
+2022-01-06 16:35:45,248 INFO  [restartedMain] HikariDataSource: HikariPool-2 - Start completed.
+2022-01-06 16:35:45,249 INFO  [restartedMain] H2ConsoleAutoConfiguration: H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-01-06 16:35:45,294 INFO  [restartedMain] LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-06 16:35:45,304 INFO  [restartedMain] Dialect: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-06 16:35:45,463 INFO  [restartedMain] JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-06 16:35:45,464 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-06 16:35:45,732 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-06 16:35:45,898 INFO  [restartedMain] OptionalLiveReloadServer: LiveReload server is running on port 35729
+2022-01-06 16:35:45,910 INFO  [restartedMain] Http11NioProtocol: Starting ProtocolHandler ["http-nio-8080"]
+2022-01-06 16:35:45,916 INFO  [restartedMain] TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-06 16:35:45,922 INFO  [restartedMain] PokerApplication: Started PokerApplication in 1.443 seconds (JVM running for 2641.809)
+2022-01-06 16:35:45,925 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+2022-01-06 16:35:49,453 INFO  [Thread-8] LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-06 16:35:49,454 INFO  [Thread-8] SchemaDropperImpl$DelayedDropActionImpl: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-01-06 16:35:49,667 WARN  [Thread-8] DisposableBeanAdapter: Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-01-06 16:35:49,669 INFO  [Thread-8] HikariDataSource: HikariPool-2 - Shutdown initiated...
+2022-01-06 16:35:49,672 INFO  [Thread-8] HikariDataSource: HikariPool-2 - Shutdown completed.
+2022-01-06 16:35:49,784 INFO  [restartedMain] PokerApplication: Starting PokerApplication using Java 18-ea on LIN800021960 with PID 19740 (C:\Users\shabhart\Desktop\Poker\poker\target\classes started by shabhart in C:\Users\shabhart\Desktop\Poker\poker)
+2022-01-06 16:35:49,784 INFO  [restartedMain] PokerApplication: No active profile set, falling back to default profiles: default
+2022-01-06 16:35:50,074 INFO  [restartedMain] RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-06 16:35:50,113 INFO  [restartedMain] RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 38 ms. Found 5 JPA repository interfaces.
+2022-01-06 16:35:50,255 INFO  [restartedMain] TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2022-01-06 16:35:50,256 INFO  [restartedMain] Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-06 16:35:50,258 INFO  [restartedMain] StandardService: Starting service [Tomcat]
+2022-01-06 16:35:50,259 INFO  [restartedMain] StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-01-06 16:35:50,301 INFO  [restartedMain] [/]: Initializing Spring embedded WebApplicationContext
+2022-01-06 16:35:50,302 INFO  [restartedMain] ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 514 ms
+2022-01-06 16:35:50,318 INFO  [restartedMain] HikariDataSource: HikariPool-3 - Starting...
+2022-01-06 16:35:50,322 INFO  [restartedMain] HikariDataSource: HikariPool-3 - Start completed.
+2022-01-06 16:35:50,323 INFO  [restartedMain] H2ConsoleAutoConfiguration: H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-01-06 16:35:50,356 INFO  [restartedMain] LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-06 16:35:50,368 INFO  [restartedMain] Dialect: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-06 16:35:50,494 INFO  [restartedMain] JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-06 16:35:50,495 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-06 16:35:50,729 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-06 16:35:50,870 INFO  [restartedMain] OptionalLiveReloadServer: LiveReload server is running on port 35729
+2022-01-06 16:35:50,877 INFO  [restartedMain] Http11NioProtocol: Starting ProtocolHandler ["http-nio-8080"]
+2022-01-06 16:35:50,883 INFO  [restartedMain] TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-06 16:35:50,887 INFO  [restartedMain] PokerApplication: Started PokerApplication in 1.148 seconds (JVM running for 2646.774)
+2022-01-06 16:35:50,889 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+2022-01-06 16:36:06,814 INFO  [Thread-12] LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-06 16:36:06,815 INFO  [Thread-12] SchemaDropperImpl$DelayedDropActionImpl: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-01-06 16:36:07,034 WARN  [Thread-12] DisposableBeanAdapter: Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-01-06 16:36:07,036 INFO  [Thread-12] HikariDataSource: HikariPool-3 - Shutdown initiated...
+2022-01-06 16:36:07,041 INFO  [Thread-12] HikariDataSource: HikariPool-3 - Shutdown completed.
+2022-01-06 16:36:07,155 INFO  [restartedMain] PokerApplication: Starting PokerApplication using Java 18-ea on LIN800021960 with PID 19740 (C:\Users\shabhart\Desktop\Poker\poker\target\classes started by shabhart in C:\Users\shabhart\Desktop\Poker\poker)
+2022-01-06 16:36:07,156 INFO  [restartedMain] PokerApplication: No active profile set, falling back to default profiles: default
+2022-01-06 16:36:07,449 INFO  [restartedMain] RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-06 16:36:07,489 INFO  [restartedMain] RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 39 ms. Found 5 JPA repository interfaces.
+2022-01-06 16:36:07,621 INFO  [restartedMain] TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2022-01-06 16:36:07,623 INFO  [restartedMain] Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-06 16:36:07,624 INFO  [restartedMain] StandardService: Starting service [Tomcat]
+2022-01-06 16:36:07,624 INFO  [restartedMain] StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-01-06 16:36:07,665 INFO  [restartedMain] [/]: Initializing Spring embedded WebApplicationContext
+2022-01-06 16:36:07,665 INFO  [restartedMain] ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 505 ms
+2022-01-06 16:36:07,682 INFO  [restartedMain] HikariDataSource: HikariPool-4 - Starting...
+2022-01-06 16:36:07,687 INFO  [restartedMain] HikariDataSource: HikariPool-4 - Start completed.
+2022-01-06 16:36:07,688 INFO  [restartedMain] H2ConsoleAutoConfiguration: H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-01-06 16:36:07,718 INFO  [restartedMain] LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-06 16:36:07,726 INFO  [restartedMain] Dialect: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-06 16:36:07,846 INFO  [restartedMain] JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-06 16:36:07,846 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-06 16:36:08,035 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-06 16:36:08,130 INFO  [restartedMain] OptionalLiveReloadServer: LiveReload server is running on port 35729
+2022-01-06 16:36:08,138 INFO  [restartedMain] Http11NioProtocol: Starting ProtocolHandler ["http-nio-8080"]
+2022-01-06 16:36:08,146 INFO  [restartedMain] TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-06 16:36:08,153 INFO  [restartedMain] PokerApplication: Started PokerApplication in 1.048 seconds (JVM running for 2664.039)
+2022-01-06 16:36:08,155 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+2022-01-06 16:47:03,941 INFO  [restartedMain] PokerApplication: Starting PokerApplication using Java 18-ea on LIN800021960 with PID 23392 (C:\Users\shabhart\Desktop\Poker\poker\target\classes started by shabhart in C:\Users\shabhart\Desktop\Poker\poker)
+2022-01-06 16:47:03,948 INFO  [restartedMain] PokerApplication: No active profile set, falling back to default profiles: default
+2022-01-06 16:47:04,043 INFO  [restartedMain] DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-06 16:47:04,045 INFO  [restartedMain] DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-06 16:47:05,106 INFO  [restartedMain] RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-06 16:47:05,249 INFO  [restartedMain] RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 123 ms. Found 5 JPA repository interfaces.
+2022-01-06 16:47:06,436 INFO  [restartedMain] TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2022-01-06 16:47:06,454 INFO  [restartedMain] Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-06 16:47:06,455 INFO  [restartedMain] StandardService: Starting service [Tomcat]
+2022-01-06 16:47:06,456 INFO  [restartedMain] StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-01-06 16:47:06,629 INFO  [restartedMain] [/]: Initializing Spring embedded WebApplicationContext
+2022-01-06 16:47:06,630 INFO  [restartedMain] ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 2584 ms
+2022-01-06 16:47:06,699 INFO  [restartedMain] HikariDataSource: HikariPool-1 - Starting...
+2022-01-06 16:47:06,968 INFO  [restartedMain] HikariDataSource: HikariPool-1 - Start completed.
+2022-01-06 16:47:06,988 INFO  [restartedMain] H2ConsoleAutoConfiguration: H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-01-06 16:47:07,288 INFO  [restartedMain] LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-06 16:47:07,364 INFO  [restartedMain] Version: HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-01-06 16:47:07,651 INFO  [restartedMain] Version: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-06 16:47:07,883 INFO  [restartedMain] Dialect: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-06 16:47:09,034 INFO  [restartedMain] JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-06 16:47:09,043 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-06 16:47:09,887 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-06 16:47:10,443 INFO  [restartedMain] OptionalLiveReloadServer: LiveReload server is running on port 35729
+2022-01-06 16:47:10,458 INFO  [restartedMain] Http11NioProtocol: Starting ProtocolHandler ["http-nio-8080"]
+2022-01-06 16:47:10,538 INFO  [restartedMain] TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-06 16:47:10,563 INFO  [restartedMain] PokerApplication: Started PokerApplication in 7.184 seconds (JVM running for 8.257)
+2022-01-06 16:47:21,577 INFO  [http-nio-8080-exec-6] [/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-06 16:47:21,578 INFO  [http-nio-8080-exec-6] DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+2022-01-06 16:47:21,579 INFO  [http-nio-8080-exec-6] DispatcherServlet: Completed initialization in 1 ms
+2022-01-06 16:48:39,975 INFO  [http-nio-8080-exec-4] PlanningPokerSessionController: createPockerPlanningSession method start
+2022-01-06 16:48:39,976 INFO  [http-nio-8080-exec-4] PokerSessionServiceImpl: createPockerPlanningSession start
+2022-01-06 16:48:40,211 INFO  [http-nio-8080-exec-4] PokerSessionServiceImpl: createPockerPlanningSession end
+2022-01-06 16:48:40,212 INFO  [http-nio-8080-exec-4] PlanningPokerSessionController: createPockerPlanningSession method end
+2022-01-06 16:59:13,765 INFO  [http-nio-8080-exec-1] PokerSessionServiceImpl: addUpdateMemberList start
+2022-01-06 16:59:13,785 WARN  [http-nio-8080-exec-1] SqlExceptionHelper: SQL Error: 23506, SQLState: 23506
+2022-01-06 16:59:13,786 ERROR [http-nio-8080-exec-1] SqlExceptionHelper: Referential integrity constraint violation: "FKB2N7H1OMYI447X1723GMTD353: PUBLIC.MEMBER FOREIGN KEY(SESSION) REFERENCES PUBLIC.POKER_SESSION(SESSION) ('10721')"; SQL statement:
+insert into member (member_id, status, name, session) values (null, ?, ?, ?) [23506-200]
+2022-01-06 16:59:13,797 WARN  [http-nio-8080-exec-1] ExceptionHandlerExceptionResolver: Failure in @ExceptionHandler com.planning.poker.controller.PokerSessionExceptionController#handleAddUpdateMemberException(SessionNotFoundException, WebRequest)
+java.lang.IllegalStateException: Could not resolve parameter [0] in public final org.springframework.http.ResponseEntity<java.lang.Object> com.planning.poker.controller.PokerSessionExceptionController.handleAddUpdateMemberException(com.planning.poker.exception.SessionNotFoundException,org.springframework.web.context.request.WebRequest): No suitable resolver
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:176)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:428)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:75)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:142)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1327)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1138)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-01-06 16:59:13,803 WARN  [http-nio-8080-exec-1] ResponseStatusExceptionResolver: Resolved [com.planning.poker.exception.AddUpdateMemberException: Unable to Add or Update Member to this session could not execute statement; SQL [n/a]; constraint [FKB2N7H1OMYI447X1723GMTD353]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2022-01-06 16:59:22,943 INFO  [http-nio-8080-exec-7] PokerSessionServiceImpl: addUpdateMemberList start
+2022-01-06 16:59:22,949 WARN  [http-nio-8080-exec-7] SqlExceptionHelper: SQL Error: 23506, SQLState: 23506
+2022-01-06 16:59:22,949 ERROR [http-nio-8080-exec-7] SqlExceptionHelper: Referential integrity constraint violation: "FKB2N7H1OMYI447X1723GMTD353: PUBLIC.MEMBER FOREIGN KEY(SESSION) REFERENCES PUBLIC.POKER_SESSION(SESSION) ('10721')"; SQL statement:
+insert into member (member_id, status, name, session) values (null, ?, ?, ?) [23506-200]
+2022-01-06 16:59:22,951 WARN  [http-nio-8080-exec-7] ExceptionHandlerExceptionResolver: Failure in @ExceptionHandler com.planning.poker.controller.PokerSessionExceptionController#handleAddUpdateMemberException(SessionNotFoundException, WebRequest)
+java.lang.IllegalStateException: Could not resolve parameter [0] in public final org.springframework.http.ResponseEntity<java.lang.Object> com.planning.poker.controller.PokerSessionExceptionController.handleAddUpdateMemberException(com.planning.poker.exception.SessionNotFoundException,org.springframework.web.context.request.WebRequest): No suitable resolver
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:176)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver.doResolveHandlerMethodException(ExceptionHandlerExceptionResolver.java:428)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodExceptionResolver.doResolveException(AbstractHandlerMethodExceptionResolver.java:75)
+	at org.springframework.web.servlet.handler.AbstractHandlerExceptionResolver.resolveException(AbstractHandlerExceptionResolver.java:142)
+	at org.springframework.web.servlet.handler.HandlerExceptionResolverComposite.resolveException(HandlerExceptionResolverComposite.java:80)
+	at org.springframework.web.servlet.DispatcherServlet.processHandlerException(DispatcherServlet.java:1327)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1138)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-01-06 16:59:22,952 WARN  [http-nio-8080-exec-7] ResponseStatusExceptionResolver: Resolved [com.planning.poker.exception.AddUpdateMemberException: Unable to Add or Update Member to this session could not execute statement; SQL [n/a]; constraint [FKB2N7H1OMYI447X1723GMTD353]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement]
+2022-01-06 17:00:06,376 INFO  [http-nio-8080-exec-4] PokerSessionServiceImpl: addUpdateMemberList start
+2022-01-06 17:00:06,393 INFO  [http-nio-8080-exec-4] PokerSessionServiceImpl: addUpdateMemberList end
+2022-01-06 17:01:51,413 WARN  [http-nio-8080-exec-2] ExceptionHandlerExceptionResolver: Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-01-06 17:01:59,708 INFO  [http-nio-8080-exec-9] UserStoryServiceImpl: addUserStory start
+2022-01-06 17:01:59,711 INFO  [http-nio-8080-exec-9] UserStoryServiceImpl: addUserStory end
+2022-01-06 17:03:59,337 INFO  [http-nio-8080-exec-1] VoteServiceImpl: submitUserStoryVote start
+2022-01-06 17:03:59,358 INFO  [http-nio-8080-exec-1] VoteServiceImpl: submitUserStoryVote end
+2022-01-06 17:05:11,278 INFO  [http-nio-8080-exec-10] VoteServiceImpl: fectVoteFinalResultForUserStory start
+2022-01-06 17:05:11,284 INFO  [http-nio-8080-exec-10] VoteServiceImpl: fectVoteFinalResultForUserStory end
+2022-01-06 17:09:18,575 WARN  [http-nio-8080-exec-5] ExceptionHandlerExceptionResolver: Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' not supported]
+2022-01-06 17:23:16,886 INFO  [Thread-6] LocalContainerEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-06 17:23:16,888 INFO  [Thread-6] SchemaDropperImpl$DelayedDropActionImpl: HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2022-01-06 17:23:17,119 WARN  [Thread-6] DisposableBeanAdapter: Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2022-01-06 17:23:17,120 INFO  [Thread-6] HikariDataSource: HikariPool-1 - Shutdown initiated...
+2022-01-06 17:23:17,122 INFO  [Thread-6] HikariDataSource: HikariPool-1 - Shutdown completed.
+2022-01-06 17:23:17,264 INFO  [restartedMain] PokerApplication: Starting PokerApplication using Java 18-ea on LIN800021960 with PID 23392 (C:\Users\shabhart\Desktop\Poker\poker\target\classes started by shabhart in C:\Users\shabhart\Desktop\Poker\poker)
+2022-01-06 17:23:17,265 INFO  [restartedMain] PokerApplication: No active profile set, falling back to default profiles: default
+2022-01-06 17:23:17,749 INFO  [restartedMain] RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-06 17:23:17,806 INFO  [restartedMain] RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 54 ms. Found 5 JPA repository interfaces.
+2022-01-06 17:23:18,003 INFO  [restartedMain] TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2022-01-06 17:23:18,005 INFO  [restartedMain] Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-06 17:23:18,006 INFO  [restartedMain] StandardService: Starting service [Tomcat]
+2022-01-06 17:23:18,007 INFO  [restartedMain] StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-01-06 17:23:18,050 INFO  [restartedMain] [/]: Initializing Spring embedded WebApplicationContext
+2022-01-06 17:23:18,050 INFO  [restartedMain] ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 781 ms
+2022-01-06 17:23:18,069 INFO  [restartedMain] HikariDataSource: HikariPool-2 - Starting...
+2022-01-06 17:23:18,073 INFO  [restartedMain] HikariDataSource: HikariPool-2 - Start completed.
+2022-01-06 17:23:18,073 INFO  [restartedMain] H2ConsoleAutoConfiguration: H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-01-06 17:23:18,119 INFO  [restartedMain] LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-06 17:23:18,129 INFO  [restartedMain] Dialect: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-06 17:23:18,331 INFO  [restartedMain] JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-06 17:23:18,333 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-06 17:23:18,653 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-06 17:23:18,848 INFO  [restartedMain] OptionalLiveReloadServer: LiveReload server is running on port 35729
+2022-01-06 17:23:18,860 INFO  [restartedMain] Http11NioProtocol: Starting ProtocolHandler ["http-nio-8080"]
+2022-01-06 17:23:18,869 INFO  [restartedMain] TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-06 17:23:18,877 INFO  [restartedMain] PokerApplication: Started PokerApplication in 1.68 seconds (JVM running for 2176.538)
+2022-01-06 17:23:18,880 INFO  [restartedMain] ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+2022-01-06 17:23:52,129 INFO  [restartedMain] PokerApplication: Starting PokerApplication using Java 18-ea on LIN800021960 with PID 6752 (C:\Users\shabhart\Desktop\Poker\poker\target\classes started by shabhart in C:\Users\shabhart\Desktop\Poker\poker)
+2022-01-06 17:23:52,133 INFO  [restartedMain] PokerApplication: No active profile set, falling back to default profiles: default
+2022-01-06 17:23:52,243 INFO  [restartedMain] DevToolsPropertyDefaultsPostProcessor: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-01-06 17:23:52,243 INFO  [restartedMain] DevToolsPropertyDefaultsPostProcessor: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-01-06 17:23:53,497 INFO  [restartedMain] RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-06 17:23:53,662 INFO  [restartedMain] RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 142 ms. Found 5 JPA repository interfaces.
+2022-01-06 17:23:55,008 INFO  [restartedMain] TomcatWebServer: Tomcat initialized with port(s): 8080 (http)
+2022-01-06 17:23:55,027 INFO  [restartedMain] Http11NioProtocol: Initializing ProtocolHandler ["http-nio-8080"]
+2022-01-06 17:23:55,028 INFO  [restartedMain] StandardService: Starting service [Tomcat]
+2022-01-06 17:23:55,029 INFO  [restartedMain] StandardEngine: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2022-01-06 17:23:55,212 INFO  [restartedMain] [/]: Initializing Spring embedded WebApplicationContext
+2022-01-06 17:23:55,213 INFO  [restartedMain] ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 2968 ms
+2022-01-06 17:23:55,274 INFO  [restartedMain] HikariDataSource: HikariPool-1 - Starting...
+2022-01-06 17:23:55,575 INFO  [restartedMain] HikariDataSource: HikariPool-1 - Start completed.
+2022-01-06 17:23:55,591 INFO  [restartedMain] H2ConsoleAutoConfiguration: H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2022-01-06 17:23:55,902 INFO  [restartedMain] LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-06 17:23:55,983 INFO  [restartedMain] Version: HHH000412: Hibernate ORM core version 5.6.1.Final
+2022-01-06 17:23:56,269 INFO  [restartedMain] Version: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-06 17:23:56,469 INFO  [restartedMain] Dialect: HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2022-01-06 17:23:57,569 INFO  [restartedMain] JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-06 17:23:57,579 INFO  [restartedMain] LocalContainerEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-06 17:23:58,551 WARN  [restartedMain] JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-06 17:23:59,136 INFO  [restartedMain] OptionalLiveReloadServer: LiveReload server is running on port 35729
+2022-01-06 17:23:59,158 INFO  [restartedMain] Http11NioProtocol: Starting ProtocolHandler ["http-nio-8080"]
+2022-01-06 17:23:59,238 INFO  [restartedMain] TomcatWebServer: Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-06 17:23:59,261 INFO  [restartedMain] PokerApplication: Started PokerApplication in 7.739 seconds (JVM running for 8.961)
+2022-01-06 17:24:12,478 INFO  [http-nio-8080-exec-1] [/]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-06 17:24:12,479 INFO  [http-nio-8080-exec-1] DispatcherServlet: Initializing Servlet 'dispatcherServlet'
+2022-01-06 17:24:12,480 INFO  [http-nio-8080-exec-1] DispatcherServlet: Completed initialization in 1 ms
+2022-01-06 17:24:12,544 INFO  [http-nio-8080-exec-1] PlanningPokerSessionController: createPockerPlanningSession method start
+2022-01-06 17:24:12,545 INFO  [http-nio-8080-exec-1] PokerSessionServiceImpl: createPockerPlanningSession start
+2022-01-06 17:24:12,720 INFO  [http-nio-8080-exec-1] PokerSessionServiceImpl: createPockerPlanningSession end
+2022-01-06 17:24:12,721 INFO  [http-nio-8080-exec-1] PlanningPokerSessionController: createPockerPlanningSession method end
+2022-01-06 19:09:56,507 INFO  [http-nio-8080-exec-7] VoteServiceImpl: stopuserStoryVoting start
+2022-01-06 19:09:56,898 WARN  [http-nio-8080-exec-7] ExceptionHandlerExceptionResolver: Resolved [javax.persistence.EntityNotFoundException: Unable to find com.planning.poker.model.UserStory with id Id1]
+2022-01-06 19:10:10,464 INFO  [http-nio-8080-exec-1] PlanningPokerSessionController: createPockerPlanningSession method start
+2022-01-06 19:10:10,465 INFO  [http-nio-8080-exec-1] PokerSessionServiceImpl: createPockerPlanningSession start
+2022-01-06 19:10:10,504 INFO  [http-nio-8080-exec-1] PokerSessionServiceImpl: createPockerPlanningSession end
+2022-01-06 19:10:10,504 INFO  [http-nio-8080-exec-1] PlanningPokerSessionController: createPockerPlanningSession method end
+2022-01-06 19:10:29,217 INFO  [http-nio-8080-exec-10] PokerSessionServiceImpl: addUpdateMemberList start
+2022-01-06 19:10:29,245 INFO  [http-nio-8080-exec-10] PokerSessionServiceImpl: addUpdateMemberList end
+2022-01-06 19:11:12,623 INFO  [http-nio-8080-exec-8] UserStoryServiceImpl: addUserStory start
+2022-01-06 19:11:12,626 INFO  [http-nio-8080-exec-8] UserStoryServiceImpl: addUserStory end
+2022-01-06 19:11:20,736 INFO  [http-nio-8080-exec-2] VoteServiceImpl: stopuserStoryVoting start
+2022-01-06 19:11:20,761 INFO  [http-nio-8080-exec-2] VoteServiceImpl: stopuserStoryVoting end
+2022-01-06 19:11:55,341 INFO  [http-nio-8080-exec-6] VoteServiceImpl: stopuserStoryVoting start
+2022-01-06 19:11:55,345 INFO  [http-nio-8080-exec-6] VoteServiceImpl: stopuserStoryVoting end
+2022-01-06 19:11:57,107 INFO  [http-nio-8080-exec-5] VoteServiceImpl: stopuserStoryVoting start
+2022-01-06 19:11:57,111 INFO  [http-nio-8080-exec-5] VoteServiceImpl: stopuserStoryVoting end
+2022-01-06 20:50:04,386 INFO  [http-nio-8080-exec-7] VoteServiceImpl: stopuserStoryVoting start
+2022-01-06 20:50:04,406 INFO  [http-nio-8080-exec-7] VoteServiceImpl: stopuserStoryVoting end
